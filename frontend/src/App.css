@@ -1,0 +1,105 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-grow-1 {
+  flex: 1;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.footer
+	{
+  	position:relative;
+  	bottom: 0;
+  	width: 100%;
+  	height: 50px;
+  	background-color: black;
+  	text-align: center;
+  	color: white;
+  	line-height: 20px;
+	}
+
+
+	/* styles.css */
+.background {
+	background-image: url('https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg');
+	background-size: cover; /* Ensure the image covers the entire element */
+	background-position: center; /* Center the image */
+	background-repeat: repeat; /* Prevent tiling of the image */
+	height: 100vh; /* Full viewport height */
+	width: 100%;
+
+  }
+
+/* Card.css */
+/* .card {
+	width: 18rem;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	margin: 20px auto;
+  }
+  
+  .card-image {
+	width: 100%;
+	height: auto;
+  }
+  
+  .card-content {
+	padding: 15px;
+  }
+  
+  .card-title {
+	font-size: 1.25rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .card-text {
+	font-size: 1rem;
+	color: #555;
+  }
+   */
+
+
+  /* Footer styles */
+  .footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	line-height: 50px; /* Center the text vertically */
+  }
+
+  .img-1 {
+	width: 100px; /* Desired width */
+	height: 200px; /* Desired height */
+	object-fit: cover; /* Ensures the image fills the box */
+	border-radius: 5px; /* Optional: Adds rounded corners */
+	
+  }
+  
+  
